@@ -22,6 +22,15 @@
     </properties>
 
     <dependencies>
+        <!-- BAD VERSION CVE-2016-8624  https://github.com/advisories/GHSA-93jq-624g-4p9p
+         https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client 
+         -->
+        <dependency>
+                  <groupId>org.asynchttpclient</groupId>
+                  <artifactId>async-http-client</artifactId>
+                  <version>2.0.33</version>
+        </dependency>
+
         <dependency>
             <groupId>org.web3j</groupId>
             <artifactId>core</artifactId>
